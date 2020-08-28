@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    background-image: url(https://image.freepik.com/free-vector/light-pattern-background_1268-963.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#finish {
+    display: none;
+}
+
+#form {
+    margin-top: 70px;
+}
+
+#button, 
+#form {
+    color: navy;
+    font-size: 25px;
+   
+    
+}
+
+p, h3 {
+    font-size: 20px;
+    text-align: center;
+}

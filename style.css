@@ -1,0 +1,24 @@
+.intro {
+    margin: 240px 330px;
+    width: 50%;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+    background-color: #C0C0C0	;
+  
+  }
+  
+  h1, h2 {
+      color: navy;
+      font-weight: bolder;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  body {
+      background-color: black;
+      background-image: url(https://www.visitreykjanes.is/static/news/md/dsc_4191_moss_restaurant.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }

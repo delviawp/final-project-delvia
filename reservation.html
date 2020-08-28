@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="other.css" type="text/css">
+    <title>Reservation Page</title>
+</head>
+<body>
+    <form id="form">
+    <h1>Please fill out this form!</h1>
+    
+    
+        <label for="name">Full Name</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email Address</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="phone">Mobile Number</label>
+        <br>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <label for="date">Date of Arrival</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br>
+        <label for="people">Number of People?</label>
+        <br>
+        <input type="number" id="people" name="people" min="1" max="8">
+        <br>
+        <label for="window-seat">Would you like to sit by the window?</label>
+        <br>
+        <input type="radio" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        
+        
+        <input type="radio" id="no" value="no">
+        <label for="no">No</label>
+            
+    </form>
+    <br>
+    <button id="button" onclick="reservation()">Submit</button>
+
+    
+
+    <div id="finish">
+        <!-- <h3>Thank you</h3>
+        <p>Name</p>
+        <p>Date of Arrival</p>
+        <p>We can't wait to see you !</p> -->
+    </div>
+    <div id="empty">
+        <!-- <p>Data is empty</p> -->
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
